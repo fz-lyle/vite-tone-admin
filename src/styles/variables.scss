@@ -1,0 +1,71 @@
+// 颜色配置
+$base-black: #222;
+$base-blue: #1890ff;
+$base-green: #13ce66;
+$base-white: #fff;
+$base-grey: #515a6e;
+$base-yellow: #ffba00;
+$base-orange: #ff6700;
+$base-red: #ff4d4f;
+$base-gray: rgba(0, 0, 0, 0.65);
+$base-background: #f6f8f9;
+
+// 默认层级
+$base-z-index: 1999;
+
+// 菜单文字颜色
+$base-menu-color: hsla(0, 0%, 100%, 0.95);
+
+// 菜单选中文字颜色
+$base-menu-color-active: hsla(0, 0%, 100%, 0.95);
+
+// 字体大小配置
+$base-font-size-small: 12px;
+$base-font-size-default: 14px;
+$base-font-size-big: 16px;
+$base-font-size-bigger: 18px;
+$base-font-size-max: 22px;
+
+// 最大宽度
+$base-main-width: 1279px;
+
+// 圆角
+$base-border-radius: 2.5px;
+
+// 边框颜色
+$base-border-color: #dcdfe6;
+
+// 输入框高度
+$base-input-height: 32px;
+
+// 默认Margin
+$base-margin: 20px;
+
+// 默认Padding
+$base-padding: 20px;
+
+// 阴影
+$side-bar-shadow: 2px 0 6px rgb(0 21 41 / 35%);
+$side-bar-shadow2: 2px 0 8px 0 rgb(29 35 41 / 5%);
+$base-box-shadow: 0 1px 4px rgb(0 21 41 / 8%);
+
+// 纵向布局：顶部导航、logo、一级菜单高度
+$base-top-bar-height: 65px;
+
+// 菜单背景色
+$base-menu-background: #1d1e23;
+
+// 菜单选中背景色
+$base-menu-background-active: $base-blue;
+
+// 左侧菜单宽度
+$side-bar-width: 256px;
+
+$tag-views-height: 45px;
+
+:export {
+    menuColor: $base-menu-color; // 菜单文字颜色
+    menuColorActive: $base-menu-color-active; // 菜单选中文字颜色
+    menuBackground: $base-menu-background; // 菜单背景色
+    sideBarWidth: $side-bar-width; // sidebar宽度
+}
