@@ -1,0 +1,29 @@
+#app {
+    .sidebar-container {
+        transition: width 0.28s;
+        position: fixed;
+        width: $side-bar-width !important;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: $base-z-index;
+        background: $base-menu-background;
+        box-shadow: $side-bar-shadow;
+
+        &.has-logo {
+
+            .tn-logo {
+                height: $base-top-bar-height;
+                line-height: $base-top-bar-height;
+                font-size: $base-font-size-max;
+                color: #fff;
+            }
+
+            .tn-scroll {
+                height: calc(100vh - #{$base-top-bar-height});
+            }
+
+        }
+    }
+}

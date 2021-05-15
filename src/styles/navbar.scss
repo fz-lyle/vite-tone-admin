@@ -1,0 +1,10 @@
+.navbar-container {
+    position: relative;
+    display: flex;
+    height: $base-top-bar-height;
+    padding: 0 $base-padding;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: $base-box-shadow;
+    background-color: $base-white;
+}
