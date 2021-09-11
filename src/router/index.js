@@ -18,11 +18,6 @@ export const asyncRouterMap = [
                 path: 'dashboard',
                 name: 'Dashboard',
                 component: () => import('@pages/dashboard/index.vue')
-            },
-            {
-                path: 'manager',
-                name: 'Manager',
-                component: () => import('@pages/manager/index.vue')
             }
         ]
     }
