@@ -196,7 +196,7 @@ const data = [
 
 const getMenuList = [
     {
-        url: '/api/router/getList',
+        url: '/api/menu',
         type: 'get',
         response() {
             return {
